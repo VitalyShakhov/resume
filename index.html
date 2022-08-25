@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-резюме</title>
+    <meta name="keywords" content="статический сайт, резюме">
+    <meta name="description" content="Это статический сайт-резюме, мой учебный проект">
+</head>
+<body>
+    <h1>Виталий Шахов</h1>
+
+    <img src="аватарка.jpg" alt="Виталий Шахов">
+
+    <p>Я студент курса по <strong>HTML&CSS</strong>.</p>
+    <p>Я люблю <em>волейбол</em>, <strong><em>математику</em></strong> и <em>программирование</em>!</p>
+
+    <p>Также увлекаюсь:
+    <ul>
+        <li>Робототехникой</li>
+        <li>Шахматами</li>
+        <li>Плаванием</li>
+    </ul>
+    </p>
+    <h2>Опыт работы</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Название компании</th>
+                <th>Должность</th>
+                <th>Период</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Тинькофф Банк</td>
+                <td>Представитель</td>
+                <td>2021</td>
+            </tr> 
+            <tr>
+                <td>RoboUniver</td>
+                <td>Преподаватель</td>
+                <td>2021-сейчас</td>
+            </tr> 
+            <tr>
+                <td>МГТУ "СТАНКИН"</td>
+                <td>Студент</td>
+                <td>2021-сейчас</td>
+            </tr>
+        </tbody>
+    </table>  
+    
+    <p>Мои соцсети:
+    <br>
+    <a href="https://vk.com/vitalik_tennisist" target="_blank">VK</a>
+    |
+    <a href="https://t.me/vitaly_shah" target="_blank">Telegram</a>
+    </p>
+
+    <h2>Связаться со мной</h2>
+    <form>
+        <div>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+        </div>
+
+        <div>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+
+        <div>
+            <label for="message">Ваше сообщение:</label>
+            <br>
+            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <input type="submit" value="Отправить форму">
+    </form>
+</body>
+</html>
